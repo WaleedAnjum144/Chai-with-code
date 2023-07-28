@@ -28,5 +28,24 @@ let number = 22
 
 let stringNumber = String(number)
 
-console.log(stringNumber);
-console.log( typeof stringNumber);
+// console.log(stringNumber);
+// console.log( typeof stringNumber);
+
+
+
+//*******************   Operations ************************
+
+let value = 3 
+let negValue = -value 
+
+// console.log(negValue);
+
+let str1 = "Waleed"
+let str2 = " Anjum"
+
+let str3 = str1 + str2 ;
+
+console.log(str3);
+
+
+

@@ -48,3 +48,30 @@ const myFunction = function(){
 }
 
 console.log( typeof id)
+
+
+
+// ****************
+
+// Stack memory(Primitive), Heaqp (non-Primitive)
+
+let myYoutubeName = "Web_Reels";
+
+let anothername = myYoutubeName
+anothername = "Dev_Reels"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+// Heap  Refference
+
+let user1 ={
+    email:"waleed@google.com",
+    upi:"user@123"
+}
+
+let user2 = user1
+
+user2.email = "wali@1234" 
+console.log(user1.email);
+console.log(user2.email);

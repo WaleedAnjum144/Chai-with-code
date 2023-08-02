@@ -8,7 +8,7 @@ if(true){
   
     const b =20       // under the curly braces the area is called block scope
     let c = 3330
-    console.log(c)
+    
     
 }
 

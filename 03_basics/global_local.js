@@ -14,4 +14,45 @@ if(true){
 
 // console.log(a);
 // console.log(b);
-console.log(c);
+// console.log(c);
+
+// function one(){
+//     const username = "Waleed"
+//     function two(){
+//         const website = "youtube"
+//         console.log(username);
+//     }
+
+    // console.log(website);
+//     two()
+// }
+
+// one()
+
+
+if (true){
+    const username = "Waleed Anjum"
+    if(username === "Waleed Anjum"){
+        const website = "Youtube"
+        // console.log(username + " " + website);
+    }
+
+    // console.log(website);
+    
+}
+// console.log(username);
+
+console.log(addone(5))   // Hoisting 
+function addone(num){         // Simple declearation of function
+    return num + 1 
+}
+
+
+
+const addtwo = function (num){  // function expression 
+    return num + 2
+}
+
+// addtwo(5)
+
+

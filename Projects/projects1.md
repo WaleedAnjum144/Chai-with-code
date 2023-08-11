@@ -80,3 +80,16 @@ const body = document.querySelector("body");
 function changeBackgroundColor(color) {
     body.style.backgroundColor = color;
 }
+
+  // 5th Method  ****************
+const buttonConatiner = document.getElementById("box");
+const body = document.querySelector("body");
+
+buttonConatiner.addEventListener('click' , function(e) {
+    if (e.target.classList.contains('button')){
+        const color = e.target.classList[1];
+        if (color){
+            body.style.backgroundColor = color;
+        }
+    }
+});

@@ -71,3 +71,12 @@ buttons.forEach(function (button){
         }
 
     });
+
+
+    <!-- 4th Method   -->
+
+const body = document.querySelector("body");
+
+function changeBackgroundColor(color) {
+    body.style.backgroundColor = color;
+}
